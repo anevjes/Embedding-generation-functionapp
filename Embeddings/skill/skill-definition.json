@@ -1,0 +1,18 @@
+{
+    "@odata.type": "#Microsoft.Skills.Custom.WebApiSkill",
+    "description": "A custom skill to convert text to vectors using openAI endpoint",
+    "uri": "https://<yourazfunctionurl>/api/embeddings",
+    "batchSize": 1,
+    "context": "/document",
+    "inputs": [
+      {
+        "name": "RawText",
+        "source": "/document/content"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "embeddings"
+      }
+    ]
+  }

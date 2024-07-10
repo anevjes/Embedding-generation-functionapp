@@ -1,0 +1,23 @@
+POST http://localhost:7071/api/embeddings
+Content-Type: application/json
+
+{
+    "values": [
+      {
+        "recordId": "a1",
+        "data":
+           {
+             "RawText": 
+                "This is a contract that was issues on November 3, 2023 and that involves... "
+           }
+      },
+      {
+        "recordId": "a2",
+        "data":
+           {
+             "RawText": 
+                "This is a contract that was issues on November 3, 2024 and that involves... "
+           }
+      }
+    ]
+}

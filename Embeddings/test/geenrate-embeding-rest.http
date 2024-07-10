@@ -1,0 +1,7 @@
+POST https://ptuopendeployment.openai.azure.com/openai/deployments/text-embedding-ada-002/embeddings?api-version=2024-03-01-preview
+Content-Type: application/json
+API-KEY: 19dfb2c78a1a4bedb292152f883a15f4
+
+{
+  "input": "Your text input here"
+}

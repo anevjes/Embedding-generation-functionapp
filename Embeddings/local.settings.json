@@ -1,0 +1,11 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+      "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+      "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+      "AZURE_OPENAI_ENDPOINT": "https://youropenai.openai.azure.com/", 
+      "OPENAI_API_KEY":"YOUR OPEN AI KEY",
+      "EMBEDDING_MODEL_DEPLOYMENT_NAME": "text-embedding-ada-002",
+      "GENERATE_EMBEDDING_ENDPOINT":"http://yourfuncitonapp/api/generate_embeddings"
+    }
+}
